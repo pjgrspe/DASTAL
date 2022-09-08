@@ -4,5 +4,4 @@ x = [2, 5, 13, 17, 3, 89, 3, 5, 2, 90, 5, 65]
 print('Element 1: ', x[5])
 print("Element 2: ", x[9])
 
-# waits for user input before exiting
-input()
+input('\nPress Enter to continue')

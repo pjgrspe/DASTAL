@@ -6,6 +6,12 @@ for i in num_to_remove:
     while i in x:
         x.remove(i)
 
-print('The sum of all numbers in array is:',sum(x))
+#another option is to use sum() function
+sum = 0
+for i in x:
+    sum = sum + i
 
-input()
+print('The sum of all numbers in the array is:',sum)
+
+
+input('\nPress Enter to continue')
